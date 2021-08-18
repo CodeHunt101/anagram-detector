@@ -1,5 +1,7 @@
 # Your code goes here!
 class Anagram
+  
+  attr_writer :word
   def initialize(word)
     @word = word
   end
